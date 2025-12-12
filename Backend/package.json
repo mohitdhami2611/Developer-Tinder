@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend For developer tinder",
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "homepage": "https://github.com/mohitdhami2611/Developer-Tinder#readme",
+  "bugs": {
+    "url": "https://github.com/mohitdhami2611/Developer-Tinder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitdhami2611/Developer-Tinder.git"
+  },
+  "license": "ISC",
+  "author": "Mohit Dhami",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
