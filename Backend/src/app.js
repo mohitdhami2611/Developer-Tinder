@@ -7,7 +7,7 @@ app.get("/line", (req, res) => {
 
 // Default route for all other paths
 app.use((req, res) => {
-  res.send("hello the port is active and well maintained by me");
+  res.send("hello the port is active and well maintained by me and also helping in maintaining for my streak");
 });
 
 app.listen(3000, () => {
