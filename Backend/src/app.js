@@ -5,6 +5,10 @@ app.get("/line", (req, res) => {
   res.send("hello how are you");
 });
 
+app.get("/send", (req, res) => {
+  res.send("hello how are you and i hope you are doing fine");
+});
+
 // Default route for all other paths
 app.use((req, res) => {
   res.send("hello the port is active and well maintained by me and also helping in maintaining for my streak");
