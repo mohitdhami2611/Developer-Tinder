@@ -1,18 +1,14 @@
 const express = require("express");
 const app = express();
 
-app.get("/line", (req, res) => {
-  res.send("hello how are you");
-});
+  app.use("/user", (req,res) => {
+    res.send("response1")
+  },
+  (req,res) => {
+    res.send("response2")
+  }
+)
 
-app.get("/send", (req, res) => {
-  res.send("hello how are you and i hope you are doing fine");
-});
-
-// Default route for all other paths
-app.use((req, res) => {
-  res.send("hello the port is active and well maintained by me and also helping in maintaining for my streak");
-});
 
 app.listen(3000, () => {
   console.log("the server on port 3000 is started and all good to run for it and so on  and on");
