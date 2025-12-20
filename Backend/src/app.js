@@ -4,6 +4,12 @@ const app = express();
   app.use("/user", (req,res) => {
     res.send("response1")
   },
+  app.use("/user", (req,res) => {
+    res.send("response1")
+  },
+  app.use("/user", (req,res) => {
+    res.send("response1")
+  },
   (req,res) => {
     res.send("response2")
   }
